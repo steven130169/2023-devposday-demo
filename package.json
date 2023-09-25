@@ -1,19 +1,28 @@
 {
   "name": "2023-devposday-demo",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "��#\u0000 \u00002\u00000\u00002\u00003\u0000-\u0000d\u0000e\u0000v\u0000p\u0000o\u0000s\u0000d\u0000a\u0000y\u0000-\u0000d\u0000e\u0000m\u0000o\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/steven130169/2023-devposday-demo.git"
+    "url": "git+https://github.com/steven130169/2023-devposday-demo.git"
   },
   "author": "Steven",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/steven130169/2023-devposday-demo/issues"
   },
-  "homepage": "https://github.com/steven130169/2023-devposday-demo#readme"
+  "homepage": "https://github.com/steven130169/2023-devposday-demo#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "husky": "^8.0.0",
+    "semantic-release": "^22.0.5"
+  }
 }
